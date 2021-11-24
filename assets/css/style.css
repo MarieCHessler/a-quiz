@@ -33,7 +33,7 @@ h2 {
   margin-bottom: 2rem;
 }
 
-/* General container */
+/* General container and content styling */
 
 .general-container {
     background-color: #adb493;
@@ -50,4 +50,28 @@ h2 {
   
   .container > * {
     width: 100%;
+  }
+
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-row {
+    display:flex;
+    flex-direction: row;
+  }
+  
+  .flex-center {
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Photos */
+
+  .animal.photos {
+    clear: both;
+    display: flex;
+    column-count: 4;
+    column-gap: 0;
   }
