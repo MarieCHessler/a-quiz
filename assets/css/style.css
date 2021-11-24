@@ -89,6 +89,8 @@ h2 {
     font-size: 1.5rem;
     letter-spacing: 1.25px;
     color: #2d3934;
+    text-decoration: none;
+    text-align: center;
 }
 
 .btn:active,
