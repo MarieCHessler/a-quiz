@@ -98,3 +98,34 @@ h2 {
     background-color: #2d3934;
     color: #d8dcd0;
 }
+
+/* Quiz page */
+
+.question-counter-heading {
+    float: left;
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+
+.question-counter {
+    float: left;
+    margin-left: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.score-heading {
+    float: right;
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+.score {
+    float: right;
+    margin-right: 2.5rem;
+    font-size: 1.5rem;
+}
+
+#question-counter-heading,
+#score-heading {
+    margin-bottom: 0;
+}
