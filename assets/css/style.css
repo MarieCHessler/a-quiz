@@ -78,19 +78,14 @@ h2 {
 /* Buttons */
 
 .btn {
-    width: 150px;
-    height: 75px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: #d8dcd0;
-    border: 2px solid #2d3934;
+    display: flex;
+    margin: 1rem 1.5rem;
     border-radius: 15px;
-    font-family: 'Darker Grotesque', sans-serif;
+    background-color: #d8dcd0;
+    padding: 1rem;
     font-size: 1.5rem;
-    letter-spacing: 1.25px;
-    color: #2d3934;
     text-decoration: none;
-    text-align: center;
+    color: #2d3934;
 }
 
 .btn:active,
@@ -157,4 +152,10 @@ h2 {
 .answer-alternative {
     padding: 1rem 1.5rem;
     font-size: 1.5rem;
+}
+
+.answer-alternative:active,
+.answer-alternative:hover {
+    background-color: #2d3934;
+    color: #d8dcd0;
 }
