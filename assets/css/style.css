@@ -139,11 +139,22 @@ h2 {
     margin-top: 10rem;
 }
 
-.choices {
+.answer-alternatives {
     display: flex;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin: 1.5rem 1.5rem;
+    border-radius: 15px;
     background-color: #d8dcd0;
     font-size: 1rem;
     color: #2d3934;
+}
+
+.answer-alternative-letter {
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.answer-alternative {
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
 }
