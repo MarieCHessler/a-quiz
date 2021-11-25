@@ -103,29 +103,47 @@ h2 {
 
 .question-counter-heading {
     float: left;
-    margin-left: 1rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
     font-size: 1rem;
 }
 
 .question-counter {
     float: left;
-    margin-left: 2.5rem;
+    margin-left: 1.75rem;
     font-size: 1.5rem;
 }
 
 .score-heading {
     float: right;
-    margin-right: 1rem;
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
     font-size: 1rem;
 }
 
 .score {
     float: right;
-    margin-right: 2.5rem;
+    margin-right: 1.75rem;
     font-size: 1.5rem;
 }
 
 #question-counter-heading,
 #score-heading {
     margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.quiz-question {
+    display: flex;
+    margin-left: 1.5rem;
+    margin-top: 10rem;
+}
+
+.choices {
+    display: flex;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    background-color: #d8dcd0;
+    font-size: 1rem;
+    color: #2d3934;
 }
