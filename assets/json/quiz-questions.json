@@ -5,7 +5,7 @@
         "answer-alternative2": "JavaScript",
         "answer-alternative3": "HTML",
         "answer": "2"
-    }
+    },
 
     {
         "quiz-question": "What is this project about?",
@@ -13,7 +13,7 @@
         "answer-alternative2": "Creating an e-book",
         "answer-alternative3": "Creating a web shop",
         "answer": "1"
-    }
+    },
 
     {
         "quiz-question": "When is the deadline?",
