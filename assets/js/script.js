@@ -6,6 +6,7 @@ const answerAlternatives = Array.from(document.getElementsByClassName("answer-al
 let presentQuestion = {}
 let questionCounter = 0;
 let score = 0;
+let remainingQuestions = [];
 
 let questions = [
     {
@@ -30,6 +31,30 @@ let questions = [
         "answer-alternative2": "January 1",
         "answer-alternative3": "December 11",
         "answer": "3"
+    },
+
+    {
+        "quiz-question": "What theme does the quiz have",
+        "answer-alternative1": "Music",
+        "answer-alternative2": "Disney",
+        "answer-alternative3": "Animals",
+        "answer": "3"
+    },
+
+    {
+        "quiz-question": "How many answers do you have to choose from?",
+        "answer-alternative1": "Three",
+        "answer-alternative2": "Two",
+        "answer-alternative3": "One",
+        "answer": "1"
+    },
+
+    {
+        "quiz-question": "How difficult is JavaScript?",
+        "answer-alternative1": "Not at all",
+        "answer-alternative2": "Very",
+        "answer-alternative3": "A little",
+        "answer": "2"
     }
 ]
 
@@ -37,6 +62,14 @@ let questions = [
 const pointsForCorrectAnswer = 1;
 const numberOfQuestions = 5;
 
-}
+
+startQuiz = () => {
+    questionCounter = 0;
+    score = 0;
+    remainingQuestions = [...questions];
+    console.log(remainingQuestions);
+};
+
+startQuiz();
 
 //fetch ('https://opentdb.com/api.php?amount=50&category=27&type=multiple')
