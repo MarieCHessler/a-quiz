@@ -1,5 +1,5 @@
 // Constant references for Quiz
-const question = document.getElementById("question");
+const quizQuestion = document.getElementById("quiz-question");
 const answerAlternatives = Array.from(document.getElementsByClassName("answer-alternative"));
 
 // Variables for Quiz
@@ -68,6 +68,14 @@ startQuiz = () => {
     score = 0;
     remainingQuestions = [...questions];
     console.log(remainingQuestions);
+    getNextQuestion();
+};
+
+getNextQuestion = () => {
+    questionCounter++;
+    const questionIndex = Math.floor(Math.random() * remainingQuestions.length);
+      presentQuestion = remainingQuestions[questionIndex];
+      quizQuestion.innerText = presentQuestion.quizQuestion;
 };
 
 startQuiz();
