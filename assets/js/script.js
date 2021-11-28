@@ -1,11 +1,11 @@
-// Constant references Quiz
+// Constant references for Quiz
 const question = document.getElementById("question");
 const answerAlternatives = Array.from(document.getElementsByClassName("answer-alternative"));
 
-// Variables Quiz
+// Variables for Quiz
 let presentQuestion = {}
-let score = 0;
 let questionCounter = 0;
+let score = 0;
 
 let questions = [
     {
@@ -32,5 +32,11 @@ let questions = [
         "answer": "3"
     }
 ]
+
+//Constants for Quiz
+const pointsForCorrectAnswer = 1;
+const numberOfQuestions = 5;
+
+}
 
 //fetch ('https://opentdb.com/api.php?amount=50&category=27&type=multiple')
