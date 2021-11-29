@@ -9,6 +9,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   answerAlternatives = Array.from(document.getElementsByClassName("answer-alternative"));
   questionCounterDiv = document.getElementById("question-counter");
 
+  startQuiz();
 });
 
 startQuiz = () => {
@@ -24,7 +25,5 @@ getNextQuestion = () => {
       presentQuestion = remainingQuestions[questionIndex];
       quizQuestion.innerText = presentQuestion.quizQuestion;
 };
-
-startQuiz();
 
 //fetch ('https://opentdb.com/api.php?amount=50&category=27&type=multiple')
