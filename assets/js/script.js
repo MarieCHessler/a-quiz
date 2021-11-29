@@ -1,9 +1,9 @@
-// Constant references for Quiz
+// Constants for Quiz
 const quizQuestion = document.getElementById("quiz-question");
 const answerAlternatives = Array.from(document.getElementsByClassName("answer-alternative"));
 
 // Variables for Quiz
-let presentQuestion = {}
+let presentQuestion = {};
 let questionCounter = 0;
 let score = 0;
 let remainingQuestions = [];
@@ -58,7 +58,6 @@ let questions = [
     }
 ]
 
-//Constants for Quiz
 const pointsForCorrectAnswer = 1;
 const numberOfQuestions = 5;
 
@@ -67,7 +66,6 @@ startQuiz = () => {
     questionCounter = 0;
     score = 0;
     remainingQuestions = [...questions];
-    console.log(remainingQuestions);
     getNextQuestion();
 };
 
