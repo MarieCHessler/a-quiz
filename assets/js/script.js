@@ -1,6 +1,15 @@
-// Constants for Quiz
-const quizQuestion = document.getElementById("quiz-question");
-const answerAlternatives = Array.from(document.getElementsByClassName("answer-alternative"));
+let quizQuestion;
+let answerAlternatives;
+let questionCounterDiv;
+
+//Event Listener for whole window
+window.addEventListener('DOMContentLoaded', (event) => {
+  // Constant references for Quiz
+  quizQuestion = document.getElementById("quiz-question");
+  answerAlternatives = Array.from(document.getElementsByClassName("answer-alternative"));
+  questionCounterDiv = document.getElementById("question-counter");
+
+});
 
 startQuiz = () => {
     questionCounter = 0;
