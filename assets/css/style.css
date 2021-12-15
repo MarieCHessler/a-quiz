@@ -135,26 +135,25 @@ h2 {
     display: flex;
     margin-left: 1.5rem;
     margin-top: 10rem;
+    justify-content: center;
 }
 
 .answers {
     display: flex;
     margin: 1.5rem 1.5rem;
-    border-radius: 15px;
-    background-color: #d8dcd0;
-    font-size: 1rem;
-    color: #2d3934;
-}
-
-.answer-alternative-letter {
-    padding: 1rem 1.5rem;
-    font-size: 1.5rem;
-    font-weight: bold;
+    justify-content: center;
 }
 
 .answer {
-    padding: 1rem 1.5rem;
+    width: 25rem;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #d8dcd0;
+    padding: 1rem;
+    font-family: 'Darker Grotesque', sans-serif;
     font-size: 1.5rem;
+    text-decoration: none;
+    color: #2d3934;
 }
 
 .answer:active,
