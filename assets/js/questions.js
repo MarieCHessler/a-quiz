@@ -11,49 +11,49 @@ let remainingQuestions = [];
 let questions = [
     {
         "quiz-question": "What is the main focus of this project?",
-        "answer-alternative1": "CSS",
-        "answer-alternative2": "JavaScript",
-        "answer-alternative3": "HTML",
+        "answer1": "CSS",
+        "answer2": "JavaScript",
+        "answer3": "HTML",
         "correctAnswer": "2"
     },
 
     {
         "quiz-question": "What is this project about?",
-        "answer-alternative1": "Creating a game",
-        "answer-alternative2": "Creating an e-book",
-        "answer-alternative3": "Creating a web shop",
+        "answer1": "Creating a game",
+        "answer2": "Creating an e-book",
+        "answer3": "Creating a web shop",
         "correctAnswer": "1"
     },
 
     {
         "quiz-question": "When is the deadline?",
-        "answer-alternative1": "December 24",
-        "answer-alternative2": "January 1",
-        "answer-alternative3": "December 11",
+        "answer1": "December 24",
+        "answer2": "January 1",
+        "answer3": "December 11",
         "correctAnswer": "3"
     },
 
     {
         "quiz-question": "What theme does the quiz have",
-        "answer-alternative1": "Music",
-        "answer-alternative2": "Disney",
-        "answer-alternative3": "Animals",
+        "answer1": "Music",
+        "answer2": "Disney",
+        "answer3": "Animals",
         "correctAnswer": "3"
     },
 
     {
         "quiz-question": "How many answers do you have to choose from?",
-        "answer-alternative1": "Three",
-        "answer-alternative2": "Two",
-        "answer-alternative3": "One",
+        "answer1": "Three",
+        "answer2": "Two",
+        "answer3": "One",
         "correctAnswer": "1"
     },
 
     {
         "quiz-question": "How difficult is JavaScript?",
-        "answer-alternative1": "Not at all",
-        "answer-alternative2": "Very",
-        "answer-alternative3": "A little",
+        "answer1": "Not at all",
+        "answer2": "Very",
+        "answer3": "A little",
         "correctAnswer": "2"
     }
 ];

@@ -1,12 +1,12 @@
 let quizQuestion;
-let answerAlternatives;
+let answers;
 let questionCounterDiv;
 
 // Event Listener for whole window
 window.addEventListener('DOMContentLoaded', (event) => {
   // Constant references for Quiz
   quizQuestion = document.getElementById("quiz-question");
-  answerAlternatives = Array.from(document.getElementsByClassName("answer-alternative"));
+  answers = Array.from(document.getElementsByClassName("answer"));
   questionCounterDiv = document.getElementById("question-counter");
 
   startQuiz();
@@ -26,7 +26,7 @@ getNextQuestion = () => {
     presentQuestion = remainingQuestions[questionIndex];
     quizQuestion.innerText = presentQuestion ["quiz-question"];
     for (let i = 0; i<3; i++){
-      answerAlternatives[i].innerText = presentQuestion[`answer-alternative${i+1}`];
+      answers[i].innerText = presentQuestion[`answer${i+1}`];
     }
     questionCounterDiv.innerText = `${questionCounter}/${questions.length}`;
 };

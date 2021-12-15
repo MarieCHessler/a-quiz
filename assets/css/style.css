@@ -137,7 +137,7 @@ h2 {
     margin-top: 10rem;
 }
 
-.answer-alternatives {
+.answers {
     display: flex;
     margin: 1.5rem 1.5rem;
     border-radius: 15px;
@@ -152,13 +152,13 @@ h2 {
     font-weight: bold;
 }
 
-.answer-alternative {
+.answer {
     padding: 1rem 1.5rem;
     font-size: 1.5rem;
 }
 
-.answer-alternative:active,
-.answer-alternative:hover {
+.answer:active,
+.answer:hover {
     background-color: #2d3934;
     color: #d8dcd0;
 }
