@@ -1,6 +1,7 @@
 let question;
 let choices;
 let questionCounterDiv;
+let choiceButtons;
 
 // Event Listener for whole window
 window.addEventListener('DOMContentLoaded', (event) => {
@@ -8,6 +9,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
   question = document.getElementById("question");
   choices = Array.from(document.getElementsByClassName("choice"));
   questionCounterDiv = document.getElementById("question-counter");
+
+  choiceButtons = document.getElementsByClassName ("choice");
+    for (btn in choiceButtons) {
+      console.log(btn);
+    }
 
   startQuiz();
 });
