@@ -1,12 +1,12 @@
-let quizQuestion;
-let answers;
+let question;
+let choices;
 let questionCounterDiv;
 
 // Event Listener for whole window
 window.addEventListener('DOMContentLoaded', (event) => {
   // Constant references for Quiz
-  quizQuestion = document.getElementById("quiz-question");
-  answers = Array.from(document.getElementsByClassName("answer"));
+  question = document.getElementById("question");
+  choices = Array.from(document.getElementsByClassName("choice"));
   questionCounterDiv = document.getElementById("question-counter");
 
   startQuiz();
@@ -24,9 +24,9 @@ getNextQuestion = () => {
     questionCounter++;
     let questionIndex = Math.floor(Math.random() * remainingQuestions.length);
     presentQuestion = remainingQuestions[questionIndex];
-    quizQuestion.innerText = presentQuestion ["quiz-question"];
+    question.innerText = presentQuestion ["question"];
     for (let i = 0; i<3; i++){
-      answers[i].innerText = presentQuestion[`answer${i+1}`];
+      choices[i].innerText = presentQuestion[`choice${i+1}`];
     }
     questionCounterDiv.innerText = `${questionCounter}/${questions.length}`;
 };

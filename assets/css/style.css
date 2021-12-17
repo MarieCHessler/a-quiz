@@ -131,20 +131,20 @@ h2 {
     font-size: 1.5rem;
 }
 
-.quiz-question {
+.question {
     display: flex;
     margin-left: 1.5rem;
     margin-top: 10rem;
     justify-content: center;
 }
 
-.answers {
+.choices {
     display: flex;
     margin: 1.5rem 1.5rem;
     justify-content: center;
 }
 
-.answer {
+.choice {
     width: 25rem;
     justify-content: center;
     border-radius: 15px;
@@ -156,8 +156,8 @@ h2 {
     color: #2d3934;
 }
 
-.answer:active,
-.answer:hover {
+.choice:active,
+.choice:hover {
     background-color: #2d3934;
     color: #d8dcd0;
 }

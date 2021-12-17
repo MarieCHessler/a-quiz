@@ -10,50 +10,50 @@ let remainingQuestions = [];
 
 let questions = [
     {
-        "quiz-question": "What is the main focus of this project?",
-        "answer1": "CSS",
-        "answer2": "JavaScript",
-        "answer3": "HTML",
+        "question": "What is the main focus of this project?",
+        "choice1": "CSS",
+        "choice2": "JavaScript",
+        "choice3": "HTML",
         "correctAnswer": "2"
     },
 
     {
-        "quiz-question": "What is this project about?",
-        "answer1": "Creating a game",
-        "answer2": "Creating an e-book",
-        "answer3": "Creating a web shop",
+        "question": "What is this project about?",
+        "choice1": "Creating a game",
+        "choice2": "Creating an e-book",
+        "choice3": "Creating a web shop",
         "correctAnswer": "1"
     },
 
     {
-        "quiz-question": "When is the deadline?",
-        "answer1": "December 24",
-        "answer2": "January 1",
-        "answer3": "December 11",
+        "question": "When is the deadline?",
+        "choice1": "December 24",
+        "choice2": "January 1",
+        "choice3": "December 11",
         "correctAnswer": "3"
     },
 
     {
-        "quiz-question": "What theme does the quiz have",
-        "answer1": "Music",
-        "answer2": "Disney",
-        "answer3": "Animals",
+        "question": "What theme does the quiz have",
+        "choice1": "Music",
+        "choice2": "Disney",
+        "choice3": "Animals",
         "correctAnswer": "3"
     },
 
     {
-        "quiz-question": "How many answers do you have to choose from?",
-        "answer1": "Three",
-        "answer2": "Two",
-        "answer3": "One",
+        "question": "How many answers do you have to choose from?",
+        "choice1": "Three",
+        "choice2": "Two",
+        "choice3": "One",
         "correctAnswer": "1"
     },
 
     {
-        "quiz-question": "How difficult is JavaScript?",
-        "answer1": "Not at all",
-        "answer2": "Very",
-        "answer3": "A little",
+        "question": "How difficult is JavaScript?",
+        "choice1": "Not at all",
+        "choice2": "Very",
+        "choice3": "A little",
         "correctAnswer": "2"
     }
 ];
