@@ -1,11 +1,10 @@
-//Constants for Quiz
+//Constants and variables
 const pointsForCorrectAnswer = 1;
 const numberOfQuestions = 5;
-
-// Variables for Quiz
 let presentQuestion = {};
+let acceptingAnswers = false;
 let questionCounter = 0;
-let score = 0;
+let scoreCounter = 0;
 let remainingQuestions = [];
 
 let questions = [
