@@ -33,31 +33,25 @@ getNextQuestion = () => {
   let questionIndex = Math.floor(Math.random() * remainingQuestions.length);
   presentQuestion = remainingQuestions[questionIndex];
   question.innerText = presentQuestion['question'];
-  for (let i = 0; i<3; i++){
+  /*for (let i = 0; i<3; i++){
     choices[i].innerText = presentQuestion[`choice${i+1}`];
-  }
+  }*/
   // Used questions removed
   remainingQuestions.splice(questionIndex, 1);
   acceptingAnswers = true;
 
   choices.forEach(choice => {
     const number = choice.dataset['number'];
-    //choice.innerText = presentQuestion['choice' + number];
+    choice.innerText = presentQuestion['choice' + number];
     choice.addEventListener('click', e => {
-      const gamersChoice = e.target;
-      const selectedAnswer = gamersChoice.dataset['number'];
-      const correctAnswer = questions.correctAnswer;
-      if (selectedAnswer == correctAnswer) {
-        incrementScore();
-      }
-      /*if (!acceptingAnswers) return;
+      if (!acceptingAnswers) return;
       acceptingAnswers = false;
       const selectedChoice = e.target;
       const selectedAnswer = selectedChoice.dataset['number'];
       const correctAnswer = selectedAnswer == presentQuestion.correctAnswer ? 'correct' : 'incorrect';
       if (correctAnswer == 'correct') {
-        incrementScore();
-      };*/
+        scoreCounter++;
+      };
       //selectedChoice.parentElement.classList.add(correctAnswer);
       getNextQuestion();
     });
