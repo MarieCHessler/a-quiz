@@ -2,6 +2,7 @@ let question;
 let choices;
 let choice;
 let questionCounterDiv;
+let scoreCounterDiv;
 
 // Event Listener for whole window
 window.addEventListener('DOMContentLoaded', (event) => {
@@ -10,6 +11,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   choices = Array.from(document.getElementsByClassName('choice'));
   questionCounterDiv = document.getElementById('question-counter');
   choice = document.getElementsByClassName('choice');
+  scoreCounterDiv = document.getElementById('score-counter');
 
   startQuiz();
 });
@@ -51,6 +53,7 @@ getNextQuestion = () => {
       const correctAnswer = selectedAnswer == presentQuestion.correctAnswer ? 'correct' : 'incorrect';
       if (correctAnswer == 'correct') {
         scoreCounter++;
+        scoreCounterDiv.innerText = `${scoreCounter}`;
       };
       //selectedChoice.parentElement.classList.add(correctAnswer);
       getNextQuestion();
