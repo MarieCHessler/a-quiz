@@ -32,7 +32,7 @@ getNextQuestion = () => {
   questionCounterDiv.innerText = `${questionCounter}/${numberOfQuestions}`;
   let questionIndex = Math.floor(Math.random() * remainingQuestions.length);
   presentQuestion = remainingQuestions[questionIndex];
-  question.innerText = presentQuestion['question'];
+  question.innerHTML = presentQuestion['question'];
 
   // Used questions removed
   remainingQuestions.splice(questionIndex, 1);
@@ -40,7 +40,7 @@ getNextQuestion = () => {
 
   choices.forEach(choice => {
     const number = choice.dataset['number'];
-    choice.innerText = presentQuestion['choice' + number];
+    choice.innerHTML = presentQuestion['choice' + number];
     choice.addEventListener('click', e => {
       if (!acceptingAnswers) return;
       acceptingAnswers = false;
