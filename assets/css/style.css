@@ -27,7 +27,7 @@ h1 {
 
 h2 {
     font-family: 'Merienda', cursive;
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: #2d3934;
     margin-bottom: 2rem;
 }
@@ -133,7 +133,8 @@ h2 {
 
 .question {
     display: flex;
-    margin-left: 1.5rem;
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
     margin-top: 10rem;
     justify-content: center;
 }
