@@ -102,26 +102,26 @@ h2 {
 .question-counter-heading {
     float: left;
     margin-top: 1.5rem;
-    margin-left: 1.5rem;
+    margin-left: 2.5rem;
     font-size: 1rem;
 }
 
 .question-counter {
     float: left;
-    margin-left: 1.75rem;
+    margin-left: 2rem;
     font-size: 1.5rem;
 }
 
 .score-heading {
     float: right;
     margin-top: 1.5rem;
-    margin-right: 1.5rem;
+    margin-right: 2.5rem;
     font-size: 1rem;
 }
 
 #score-counter {
     float: right;
-    margin-right: 1.75rem;
+    margin-right: 2rem;
     font-size: 1.5rem;
 }
 
@@ -137,6 +137,7 @@ h2 {
     margin-right: 7.5rem;
     margin-top: 10rem;
     justify-content: center;
+    text-align: center;
 }
 
 .choices {
