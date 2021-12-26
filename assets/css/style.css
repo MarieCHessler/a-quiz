@@ -158,11 +158,12 @@ h2 {
     color: #2d3934;
 }
 
-.choice:active,
+.choice:focus,
 .choice:hover {
     background-color: #2d3934;
     color: #d8dcd0;
 }
+
 .next-question {
     display: flex;
     margin: 3.5rem 1.5rem;
