@@ -8,7 +8,7 @@ let scoreCounter = 0;
 let remainingQuestions = [];
 
 let questions = [
-    // Questions and choices
+    // Questions and choices from OpenTrivia 
     {
         "question": "What was the name of the Ethiopian Wolf before they knew it was related to wolves?",
         "choice1": "Simien Jackel",
