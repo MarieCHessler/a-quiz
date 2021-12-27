@@ -1,4 +1,7 @@
-// Used Create a Basic Quiz using JavaScript
+/* Used the following tutorials to learn how to create a quiz
+Multiple Choice Quiz Javascript by Code Explained
+Create a Basic Quiz using JavaScript by Zenva
+Build a Quiz App with HTML, CSS, and JavaScript by James Q Quick */
 
 let question;
 let choices;
