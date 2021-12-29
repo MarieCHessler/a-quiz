@@ -29,8 +29,9 @@ startQuiz = () => {
 
 // Handle questions and choices
 getNextQuestion = () => {
-  //When no questions left, move to Score page
+  //When no questions left, save score to local storage and move to Score page
   if (remainingQuestions.length === 0 || questionCounter >= numberOfQuestions) {
+    localStorage.setItem('latestScore', `${scoreCounter}`);
     return window.location.assign('score.html');
   }
 
