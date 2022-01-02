@@ -205,3 +205,12 @@ h2 {
     font-size: 0.9rem;
     color: #2d3934;  
 }
+/* Media queries */
+/* for screen sizes 1120px and down */
+
+@media screen and (max-width: 1120px){
+
+    body {
+        background-color: #adb493;
+    }
+}
