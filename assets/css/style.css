@@ -187,3 +187,21 @@ h2 {
     background-color: #2d3934;
     color: #d8dcd0;
 }
+
+/* Footer section */
+
+#footer {
+    height: 55px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    max-height: unset;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem; 
+    background-color: #adb493;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 0.9rem;
+    color: #2d3934;  
+}
