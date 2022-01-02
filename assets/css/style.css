@@ -97,6 +97,30 @@ h2 {
     color: #d8dcd0;
 }
 
+.next-question {
+    display: flex;
+    margin: 3.5rem 1.5rem;
+    justify-content: center;
+}
+
+#next-question {
+    width: 7.5rem;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #2d3934;
+    padding: 1rem;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #d8dcd0;
+}
+
+#next-question:active,
+#next-question:hover {
+    background-color: #d8dcd0;
+    color: #2d3934;
+}
+
 /* Quiz page */
 
 .question-counter-heading {
@@ -162,28 +186,4 @@ h2 {
 .choice:hover {
     background-color: #2d3934;
     color: #d8dcd0;
-}
-
-.next-question {
-    display: flex;
-    margin: 3.5rem 1.5rem;
-    justify-content: center;
-}
-
-#next-question {
-    width: 7.5rem;
-    justify-content: center;
-    border-radius: 15px;
-    background-color: #2d3934;
-    padding: 1rem;
-    font-family: 'Darker Grotesque', sans-serif;
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: #d8dcd0;
-}
-
-#next-question:active,
-#next-question:hover {
-    background-color: #d8dcd0;
-    color: #2d3934;
 }
