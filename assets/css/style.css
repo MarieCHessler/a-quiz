@@ -79,7 +79,6 @@ h3 {
 
 .animal.photos {
     display: flex;
-    margin-top: 7.5rem
 }
 
 /* Buttons */
@@ -207,6 +206,12 @@ h3 {
 .choice:hover {
     background-color: #2d3934;
     color: #d8dcd0;
+}
+
+/* Score page */
+
+.score-text {
+    margin-top: 3rem;
 }
 
 /* Footer section */
