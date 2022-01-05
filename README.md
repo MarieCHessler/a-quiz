@@ -4,12 +4,12 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
 
 <!-- A link to the live website can be found [here](https://mariechessler.github.io/a-quiz/index.html), and a link to the repository [here](https://github.com/MarieCHessler/a-quiz).
 
-![Animal Quiz on different screen sizes](assets/images/xxx) -->
+![Animal Quiz on different screen sizes](assets/images/aq-screens.webp) -->
 
 <br>
 
 ## Table of contents
-1. [Design] (https://github.com/MarieCHessler/a-quiz#design)
+1. [Design](https://github.com/MarieCHessler/a-quiz#design)
     * [Color Palette](https://github.com/MarieCHessler/a-quiz#color-palette)
     * [Typography](https://github.com/MarieCHessler/a-quiz#typography)
     * [Layout](https://github.com/MarieCHessler/a-quiz#layout)
@@ -36,3 +36,40 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
     * [Content](https://github.com/MarieCHessler/a-quiz#content)
     * [Media](https://github.com/MarieCHessler/a-quiz#media)
     * [Special thanks to](https://github.com/MarieCHessler/a-quiz#special-thanks-to)
+
+    <br>
+
+    ## Design
+
+    <br>
+
+    ![Animal Quiz 3 color palette](assets/images/aq-3-color-palette.webp)
+
+    ### Color Palette
+
+    * The game's primary colors are (from left to right)...
+      * **Xxx** is used for 
+      * **Xxx** is used for 
+      * **Xxx** is used for 
+    * The colors are all nuances of green, to mirror nature.
+
+    ### Typography
+
+    * Cormorant Garamond is used for headings, since it fits with the Q in the image. Fallback font is serif.
+    * Raleway is used for body, scores, choices and buttons, since it is easy to read and complements Cormorant Garamond well. Fallback font is sans serif
+    * Both fonts are from Google Fonts, and a good font pairing according to the site Davey & Crista that focuses on brand strategy and design.
+
+    ### Layout
+    
+    * The content has been divided into three different pages. This way the quiz page, with the questions, is separated from the finish page, where the final score is presented, and the landing page.
+    * For desktop and laptops the colored background has been limited to the general container, to keep the eyes' focus mid screen. For tablets and mobiles all the background is colored.
+
+    ### Wireframes
+
+    * Wireframes were used to structure the page content for desktop, tablet, and mobile screens. The structure does not vary a lot between the different screens, since the content is kept mid screen for the game, but margins and font sizes vary.
+
+    <br>
+
+    ![Wireframes for desktop, tablet and mobile](assets/images/aq-wireframes.webp)
+
+    <br>
