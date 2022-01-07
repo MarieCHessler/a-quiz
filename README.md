@@ -47,10 +47,10 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
 
     ### Color Palette
 
-    * The game's primary colors are (from left to right)...
-      * **Xxx** is used for 
-      * **Xxx** is used for 
-      * **Xxx** is used for 
+    * The game's primary colors are (from left to right) Outer Space Crayola, Laurel Green and Timberwolf, as seen in the picture above. They were derived using the online tool Coolors, to make sure they complement and contrast each other in a good way.
+      * **Outer Space Crayola** is used for headlines and text, as contrasting background color on buttons, as background hover color for choices and as hover color for button texts.
+      * **Laurel Green** is used as background color for the general container, and also for the body for tablets and mobiles. 
+      * **Timberwolf** is used as contrasting background color for choices, as background hover color for buttons and as hover color for choice texts.
     * The colors are all nuances of green, to mirror nature.
 
     ### Typography
