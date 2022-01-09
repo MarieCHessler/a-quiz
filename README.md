@@ -134,4 +134,52 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
 
     ## Technology used
 
-    * 
+    * **[Convertio](https://convertio.co)** <br>
+    Used to covert png files to ico files. 
+
+    * **[Coolors](https://coolors.co)** <br>
+    Used to find suitable colors that complement each other.
+
+    * **[CSS](https://www.w3schools.com/css/default.asp)** <br>
+    Used for styling and responsiveness of site.
+
+    * **[Font Awesome](https://fontawesome.com)** <br>
+    Used for icons used for illustrations.
+
+    * **[Git](https://git-scm.com/)** <br>
+    Used for version control, by using GitHub terminal for git commits and push to GitHub.
+
+    * **[GitHub](https://github.com/)** <br>
+    Used to backup and store project code, including changes, and deploy.
+
+    * **[Gitpod](https://www.gitpod.io/)** <br>
+    IDE used for programming, editing, and debugging.
+
+    * **[Google Chrome DevTools](https://developer.chrome.com/docs/devtools/)** <br>
+    Used for checking responsiveness, trying alternative code solutions, and testing performance, accessibility, best practices and SEO.
+
+    * **[Google Fonts](https://fonts.google.com)** <br>
+    Used to find and import the fonts Raleway and Montez that are used across the sites.
+
+    * **[HTML](https://www.w3schools.com/html/)** <br>
+    Used for content and structure of site.
+
+    * **[JavaScript](https://www.javascript.com)** <br>
+    Used for content and structure of site.
+
+    * **[Microsoft Word](https://www.microsoft.com/en-us/microsoft-365/word)** <br>
+    Used for spellchecking text.
+
+    * **[Photoshop](https://www.adobe.com/products/photoshop.html)** <br>
+    Used for editing images and illustrations.
+
+    * **[Squoosh](https://squoosh.app)** <br>
+    Used to reduce file size in images.
+
+    * **[W3C (Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input)** <br>
+    Used to validate CSS code.
+
+    * **[W3C validator](https://validator.w3.org/#validate_by_input)** <br>
+    Used to validate HTML code
+
+    <br>
