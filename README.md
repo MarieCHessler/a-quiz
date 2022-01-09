@@ -51,7 +51,7 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
       * **Outer Space Crayola** is used for headlines and text, as contrasting background color on buttons, as background hover color for choices and as hover color for button texts.
       * **Laurel Green** is used as background color for the general container, and also for the body for tablets and mobiles. 
       * **Timberwolf** is used as contrasting background color for choices, as background hover color for buttons and as hover color for choice texts.
-    * The colors are all nuances of green, to mirror nature.
+    * The colors are all nuances of green, to mirror nature and enhance the connection with the animal kingdom.
 
     ### Typography
 
@@ -61,15 +61,77 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
 
     ### Layout
     
-    * The content has been divided into three different pages. This way the quiz page, with the questions, is separated from the finish page, where the final score is presented, and the landing page.
-    * For desktop and laptops the colored background has been limited to the general container, to keep the eyes' focus mid screen. For tablets and mobiles all the background is colored.
+    * The content has been divided into three different pages. This way the quiz page, with the questions, is separated from the finish page, where the final score is presented, and the landing page, where you start.
+    * For desktop and laptops the colored background has been limited to the general container, to keep the eyes' focus mid screen. For tablets and mobiles the whole background is colored.
 
     ### Wireframes
 
-    * Wireframes were used to structure the page content for desktop, tablet, and mobile screens. The structure does not vary a lot between the different screens, since the content is kept mid screen for the game, but margins and font sizes vary.
+    * Wireframes were used to structure the page content for desktop, tablet, and mobile screens. The structure does not vary a lot between the different screens, since the content is kept mid screen for the game, but margins, image sizes and font sizes vary.
 
     <br>
 
     ![Wireframes for desktop, tablet and mobile](assets/images/aq-wireframes.webp)
 
     <br>
+
+    ##Features
+
+    The features described below have been implemented for the user to have a good experience, with a game that contains text and images that are easy to follow and navigate.
+
+    ### Existing features
+
+    **Landing page**
+    * The landing page includes the heading ANIMAL, an image consisting of a Q with four animals in it and the letters u,i and z on the outside, and a button to start the game.
+    * The heading, together with the animals, makes it easy for the user to understand what the quiz is about.
+    * The quiz image enhances the understanding.
+    * The button invites the user to start the game.
+
+    ![Landing page](assets/images/aq-landing-page.webp)
+
+    <br>
+
+    **Quiz page**
+    * The quiz page is where the actual game takes place, and includes the Q image, a heads up display with question number and score, the question, three choices and a button.
+    * The Q image helps user recognition.
+    * The heads up display allowes the user contant access to information regarding what question he or she is on, how many questions are left, and what score has been accomplished so far.
+    * For the user's eyes to easily find the question, it has been placed in the center.
+    * The answer choices shift color when the pointer hovers over them and when they are clicked, to make it easy for the user to follow what has been selected and not.
+    * Questions and choices are collected from a separate js file.
+    * The button below the choices says "Next" and invites the user to launch the next question or page.
+
+    ![Quiz page](assets/images/aq-quiz-page.webp)
+
+    <br>
+
+    **Score page**
+    * The score page is the end page of the game, where the final score is presented and the user can choose to start a new game or go back to the landing page.
+    * The page includes the heading SCORE, the Q image, a text telling the user he or she scored a number out of 10, one button that says "Start new quiz" and one that says "Back to start page".
+    * The layout of the page is similar to that of the landing page, for recogniton.
+    * The heading makes it evident for the user what is presented on the page.
+    * The Q image helps user recognition.
+    * For the user's eyes to easily find the result, it has been placed in the center.
+    * The buttons below the score text invite the user to choose between starting a new game and returning to the landing page.
+
+    ![Score page](assets/images/aq-score-page.webp)
+
+    <br>
+
+    **Footer section**
+    * The footer section is located in the game container on all three pages and includes copyright information.
+
+    ![Footer section](assets/images/aq-footer.webp)
+    
+    <br>
+
+    ### Features for the future
+    * An image connected to each question.
+    * Possibility to choose different levels of difficulty.
+    * More subjects to choose from.
+    * Question presented like a card, that flips and shows the right answer, when the user has made his or her choice. For a better learning experience.
+    * High score.
+
+    <br>
+
+    ## Technology used
+
+    * 
