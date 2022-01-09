@@ -65,7 +65,7 @@ getNextQuestion = () => {
         scoreCounterDiv.innerText = `${scoreCounter}`;
       }else{
         scoreCounterDiv.innerText = `${scoreCounter}`;
-      };
+      }
     });
   });
 };
