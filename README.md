@@ -141,7 +141,7 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
     Used to find suitable colors that complement each other.
 
     * **[CSS](https://www.w3schools.com/css/default.asp)** <br>
-    Used for styling and responsiveness of site.
+    Used for site styling and responsiveness.
 
     * **[Font Awesome](https://fontawesome.com)** <br>
     Used for icons used for illustrations.
@@ -162,10 +162,13 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
     Used to find and import the fonts Raleway and Montez that are used across the sites.
 
     * **[HTML](https://www.w3schools.com/html/)** <br>
-    Used for content and structure of site.
+    Used for site content and structure.
 
-    * **[JavaScript](https://www.javascript.com)** <br>
-    Used for content and structure of site.
+    * **[JavaScript](https://www.w3schools.com/js/)** <br>
+    Used for site behavior and interaction.
+
+    * **[JSHint](https://jshint.com/)** <br>
+    Used to validate JavaScript code.
 
     * **[Microsoft Word](https://www.microsoft.com/en-us/microsoft-365/word)** <br>
     Used for spellchecking text.
