@@ -48,20 +48,20 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
     ### Color Palette
 
     * The game's primary colors are (from left to right) Outer Space Crayola, Laurel Green and Timberwolf, as seen in the picture above. They were derived using the online tool Coolors, to make sure they complement and contrast each other in a good way.
-      * **Outer Space Crayola** is used for headlines and text, as contrasting background color on buttons, as background hover color for choices and as hover color for button texts.
-      * **Laurel Green** is used as background color for the general container, and also for the body for tablets and mobiles. 
-      * **Timberwolf** is used as contrasting background color for choices, as background hover color for buttons and as hover color for choice texts.
+        * **Outer Space Crayola** is used for headlines and text, as contrasting background color on buttons, as background hover color for choices and as hover color for button texts.
+        * **Laurel Green** is used as background color for the general container, and also for the body for tablets and mobiles. 
+        * **Timberwolf** is used as contrasting background color for choices, as background hover color for buttons and as hover color for choice texts.
     * The colors are all nuances of green, to mirror nature and enhance the connection with the animal kingdom.
 
     ### Typography
 
-    * Cormorant Garamond is used for headings, since it fits with the Q in the image. Fallback font is serif.
+    * Cormorant Garamond is used for headings, since it fits with the Q in the image and looks professional. Fallback font is serif.
     * Raleway is used for body, scores, choices and buttons, since it is easy to read and complements Cormorant Garamond well. Fallback font is sans serif
     * Both fonts are from Google Fonts, and a good font pairing according to the site Davey & Crista that focuses on brand strategy and design.
 
     ### Layout
     
-    * The content has been divided into three different pages. This way the quiz page, with the questions, is separated from the finish page, where the final score is presented, and the landing page, where you start.
+    * The content has been divided into three different pages. This way the quiz page, with the questions, is separated from the end page, where the final score is presented, and the landing page, where you start.
     * For desktop and laptops the colored background has been limited to the general container, to keep the eyes' focus mid screen. For tablets and mobiles the whole background is colored.
 
     ### Wireframes
@@ -76,14 +76,14 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
 
     ##Features
 
-    The features described below have been implemented for the user to have a good experience, with a game that contains text and images that are easy to follow and navigate.
+    The features described below have been implemented for the user to have a pleasant and fun experience, with a game that contains text, images and buttons that are easy to understand and makes the flow hassle free.
 
     ### Existing features
 
     **Landing page**
-    * The landing page includes the heading ANIMAL, an image consisting of a Q with four animals in it and the letters u,i and z on the outside, and a button to start the game.
+    * The landing page includes the heading ANIMAL, a quiz image, and a button to start the game.
     * The heading, together with the animals, makes it easy for the user to understand what the quiz is about.
-    * The quiz image enhances the understanding.
+    * The image, consisting of a Q with four animals inside and "uiz" on the outside, enhances the understanding.
     * The button invites the user to start the game.
 
     ![Landing page](assets/images/aq-landing-page.webp)
@@ -93,9 +93,9 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
     **Quiz page**
     * The quiz page is where the actual game takes place, and includes the Q image, a heads up display with question number and score, the question, three choices and a button.
     * The Q image helps user recognition.
-    * The heads up display allowes the user contant access to information regarding what question he or she is on, how many questions are left, and what score has been accomplished so far.
+    * The heads up display allows the user constant access to information regarding what question he or she is on, how many questions are left, and what score has been accomplished so far.
     * For the user's eyes to easily find the question, it has been placed in the center.
-    * The answer choices shift color when the pointer hovers over them and when they are clicked, to make it easy for the user to follow what has been selected and not.
+    * The answer choices shift color when the user hovers over them and when they are clicked, to make it easy for the user to follow what has been selected and not.
     * Questions and choices are collected from a separate js file.
     * The button below the choices says "Next" and invites the user to launch the next question or page.
 
@@ -105,9 +105,9 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
 
     **Score page**
     * The score page is the end page of the game, where the final score is presented and the user can choose to start a new game or go back to the landing page.
-    * The page includes the heading SCORE, the Q image, a text telling the user he or she scored a number out of 10, one button that says "Start new quiz" and one that says "Back to start page".
+    * The page includes the heading SCORE, the Q image, a text telling the user he or she scored a certain number out of 10, one button that says "Start New Quiz" and one that says "Back to Start Page".
     * The layout of the page is similar to that of the landing page, for recogniton.
-    * The heading makes it evident for the user what is presented on the page.
+    * The heading makes it clear to the user what is presented on the page.
     * The Q image helps user recognition.
     * For the user's eyes to easily find the result, it has been placed in the center.
     * The buttons below the score text invite the user to choose between starting a new game and returning to the landing page.
@@ -127,7 +127,7 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
     * An image connected to each question.
     * Possibility to choose different levels of difficulty.
     * More subjects to choose from.
-    * Question presented like a card, that flips and shows the right answer, when the user has made his or her choice. For a better learning experience.
+    * Question presented like a card that flips and shows the right answer when the user has made his or her choice. For a better learning experience.
     * High score.
 
     <br>
@@ -186,3 +186,242 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
     Used to validate HTML code
 
     <br>
+
+    ## Testing
+    The site has been tested by validator and manually. Details can be found in the sections below.
+
+    <br>
+
+    ### Validator testing
+    * **HTML** <br>
+        * No errors or warnings were found on index.html, quiz.html or score.html, then passing through the official [W3C validator](https://validator.w3.org/#validate_by_input).
+
+        <br>
+    
+    * **CSS** <br>
+        * No errors were found on style.css, when passing through the official [W3C (Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
+        * One warning was returned, saying "Imported style sheets are not checked in direct input and file upload modes".
+
+        <br>
+    
+    * **JavaScript** <br>
+        * No errors were found on script.js, questions.js or score.js when passing through the linter [JSHint](https://jshint.com/).
+        * The following warnings were returned:
+            * 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+            * 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+            * 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+            * 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+        * The following variables came up as undefined, even though they were defined
+            * startQuiz (in script.js)
+            * questionCounter (in script.js and questions.js)
+            * scoreCounter (in script.js and questions.js)
+            * remainingQuestions (in script.js and questions.js)
+            * questions (in script.js and questions.js)
+            * getNextQuestion (in script.js)
+            * numberOfQuestions (in script.js and questions.js)
+            * presentQuestion (in script.js and questions.js)
+            * acceptingAnswers (in script.js and questions.js)
+            * pointsForCorrectAnswer (in questions.js)
+
+       <br>
+    
+    ### Manual testing
+    * **The following has been checked manually on different devices and in different browsers:**
+        * Links and buttons work properly.
+        * Question number and score are updated for each new question.
+        * Hover effect and selection color work for buttons and choices.
+        * New question appears when "Next" button is clicked.
+        * Correct choices are presented with each new question.
+        * Final score is presented when last question has been answered.
+        * Responsiveness works, and no content moves in unexpected ways when screen size is changed.
+
+    <br>
+
+    * **The following devices and browsers have been used:**
+        * iMac 27"
+        * MacBook Pro 13"
+        * iPad generation 6
+        * iPhone XR and 11
+        * HP EliteBook
+        * HP ProBook
+        * Safari - Version 15.0 (16612.1.29.41.4, 16612)
+        * Chrome - Version 95.0.4638.54 (Official version) (x86_64)
+        * Edge - Version 95.0.1020.30 (Official version) (64 bit)
+
+    <br>
+
+    * **The site's responsiveness has been checked in Google Chrome DevTools throughout the project.**
+
+    <br>
+
+    * **The site has been run in Lighthouse** (part of Google Chrome DevTools)
+    * Results for the landing page, Our Classes and Thank you on desktop and mobile.
+
+    ![Lighthouse results desktop](assets/images/lighthouse-desktop.webp)
+
+    <br>
+
+    ![Lighthouse results mobile](assets/images/lighthouse-mobile.webp)
+
+    <br>
+
+    * **The reasons the score is less than 100% on Performance are the following:**
+        * For the landing page on desktop, scoring xx%, 
+
+        * For the landing page on mobile, scoring xx%,
+
+        * For the quiz page on mobile, scoring xx%,
+
+<br>
+
+## Bugs
+The bugs reported in the following section are a selection of the most prominent ones, that needed extra consideration and work.
+
+### Fixed bugs
+* **Bug:** No change in color when selected choice is clicked. <br>
+    **Fix:** Add .choice:focus to the CSS.
+
+<br>
+
+* **Bug:** Too few of the questions are presented and the wrong scores are shown. <br>
+    **Fix:** Remove nextQuestion from within function and add "Next" button.
+
+<br>
+
+* **Bug:** Final score not showing on score page. <br>
+    **Fix:** Use local storage.
+
+<br>
+
+* **Bug:** Rounded corners on larger screens not working with footer. <br>
+    **Fix:** Include footer in general container.
+
+<br>
+
+* **Bug:** Image not changing size. <br>
+    **Fix:** Make image responsive by setting the max width to 100% and the height to auto.
+
+<br>
+
+### Known issues
+* No known remaining bugs
+
+<br>
+
+## Deployment
+
+### GitHub Pages
+The site was deployed to GitHub pages by following these steps: <br>
+
+* Log in to GitHub.
+* Go to the GitHub repository.
+* Click on Settings.
+* Scroll down to the GitHub Pages section and click on "Check it out here!".
+* Under Source, click the arrow and choose Branch: main.
+* After a little while the page is automatically refreshed and you get a message on green background, saying "Your site is published at: ...", with a link to your site, showing that your deployment was successful.
+
+The live link can be found here: https://mariechessler.github.io/a-quiz/index.html
+
+<br>
+
+## Credits
+
+The references mentioned in this section have been used for content and media. Special thanks at the end.
+
+### Content
+* **Inspiration on how to create a quiz - 1** <br>
+    Title: Create a Multiple Choice Quiz App Using JavaScript <br>
+    Author: *Code Explained* <br>
+    Date: Oct 18, 2018 <br>
+    URL: https://www.youtube.com/watch?v=49pYIMygIcU
+
+<br>
+
+* **Inspiration on how to create a quiz - 2** <br>
+    Title: Creating a Basic Quiz - JavaScript Tutorial <br>
+    Author: *Zenva* <br>
+    Date: Dec 15, 2020 <br>
+    URL: https://www.youtube.com/watch?v=RswgVWKJRLM
+
+<br>
+
+* **Inspiration on how to create a quiz - 3** <br>
+    Title: Build a Quiz App with HTML, CSS, and JavaScript <br>
+    Author: *James Q Quick* <br>
+    Date: Feb 18, 2019 <br>
+    URL: https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx
+
+<br>
+
+* **Help with issue connected to too few questions presented and wrong score showing** <br>
+    Title: Solution to question and score issue <br>
+    Author: *Dave Horrocks*, Slack community <br>
+    Date: Dec 21, 2021 <br>
+    Autor tip: "getNextQuestion" is being called in a loop, which is causing the problem.
+
+<br>
+
+* **Solution to how to change color on clicked choice** <br>
+    Title: How to keep :active css style after click a button <br>
+    Author: *SW4* <br>
+    Date: Jul 2, 2015 <br>
+    URL: https://stackoverflow.com/questions/31178653/how-to-keep-active-css-style-after-click-a-button
+
+<br>
+
+* **Inspiration on how to move the final score to the end page** <br>
+    Title: Web Storage API <br>
+    Author: *W3Schools* <br>
+    Date: 2021 <br>
+    URL: https://www.w3schools.com/js/js_api_web_storage.asp
+
+<br>
+
+* **How to make text uppercase** <br>
+    Title: CSS text-transform Property <br>
+    Author: *W3Schools* <br>
+    Date: 2021 <br>
+    URL: https://www.w3schools.com/cssref/pr_text_text-transform.asp
+
+<br>
+
+* **How to make image responsive** <br>
+    Title: CSS Styling Images <br>
+    Author: *W3Schools* <br>
+    Date: 2021 <br>
+    URL: https://www.w3schools.com/css/css3_images.asp
+
+<br>
+
+### Media
+* **Image butterfly** <br>
+    Site: Pexels <br>
+    Creator: *Pavel Hájek* <br>
+    URL: https://www.pexels.com/photo/colorful-butterfly-on-stem-of-dry-plant-4275360/ <br>
+    Image: pexels-pavel-hÃ¡jek-4275360.jpg 
+
+<br>
+
+* **Image cheetah** <br>
+    Site: Pexels <br>
+    Creator: *Antony Trivet* <br>
+    URL: https://www.pexels.com/photo/young-cheetah-walking-in-savanna-6057031/ <br>
+    Image: pexels-antony-trivet-6057031.jpg 
+
+<br>
+
+* **Image hippo** <br>
+    Site: Pexels <br>
+    Creator: *Pixabay* <br>
+    URL: https://www.pexels.com/photo/hippos-in-water-46540/ <br>
+    Image: pexels-pixabay-46540.jpg 
+
+<br>
+
+* **Image sea horse** <br>
+    Site: Pexels <br>
+    Creator: *Sergiu Iacob* <br>
+    URL: https://www.pexels.com/photo/close-up-shot-of-a-seahorse-7868382/ <br>
+    Image: pexels-sergiu-iacob-7868382.jpg 
+
+<br>

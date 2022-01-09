@@ -1,7 +1,19 @@
-/* Used the following tutorials to learn how to create a quiz
-Multiple Choice Quiz Javascript by Code Explained
-Create a Basic Quiz using JavaScript by Zenva
-Build a Quiz App with HTML, CSS, and JavaScript by James Q Quick */
+/* The following tutorials have been used as inspiration on how build a quiz:
+
+Title: Create a Multiple Choice Quiz App Using JavaScript <br>
+Author: *Code Explained* <br>
+Date: Oct 18, 2018 <br>
+URL: https://www.youtube.com/watch?v=49pYIMygIcU
+
+Title: Creating a Basic Quiz - JavaScript Tutorial <br>
+Author: *Zenva* <br>
+Date: Dec 15, 2020 <br>
+URL: https://www.youtube.com/watch?v=RswgVWKJRLM
+
+Title: Build a Quiz App with HTML, CSS, and JavaScript <br>
+Author: *James Q Quick* <br>
+Date: Feb 18, 2019 <br>
+URL: https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx */
 
 let question;
 let choices;
