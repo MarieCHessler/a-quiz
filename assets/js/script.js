@@ -42,7 +42,7 @@ getNextQuestion = () => {
   // Present question and choices
   let questionIndex = Math.floor(Math.random() * remainingQuestions.length);
   presentQuestion = remainingQuestions[questionIndex];
-  question.innerHTML = presentQuestion['question'];
+  question.innerHTML = presentQuestion.question;
 
   // Remove used questions
   remainingQuestions.splice(questionIndex, 1);
@@ -50,7 +50,7 @@ getNextQuestion = () => {
   
   // Present choices
   choices.forEach(choice => {
-    const number = choice.dataset['number'];
+    const number = choice.dataset.number;
     choice.innerHTML = presentQuestion['choice' + number];
     
     // Check answers by click event and increment score if correct
@@ -58,7 +58,7 @@ getNextQuestion = () => {
       if (!acceptingAnswers) return;
       acceptingAnswers = false;
       const selectedChoice = event.target;
-      const selectedAnswer = selectedChoice.dataset['number'];
+      const selectedAnswer = selectedChoice.dataset.number;
       const correctAnswer = selectedAnswer == presentQuestion.correctAnswer ? 'correct' : 'incorrect';
       if (correctAnswer == 'correct') {
         scoreCounter++;
