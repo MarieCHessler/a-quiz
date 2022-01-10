@@ -210,8 +210,12 @@ img {
     color: #2d3934;
 }
 
-.choice:focus,
 .choice:hover {
+    background-color: #2d3934;
+    color: #d8dcd0;
+}
+
+.selectedChoice {
     background-color: #2d3934;
     color: #d8dcd0;
 }
