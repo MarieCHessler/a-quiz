@@ -298,8 +298,12 @@ The bugs reported in the following section are a selection of the most prominent
 
 <br>
 
+* **Bug:** Color for selected choice and "Next" button stopped working. <br>
+    **Fix:** Replace focus on class choice in CSS with new class selectedChoice and related function.
+
+<br>
+
 ### Known issues
-* Hover effect and reversed colors on Next button have stopped working on smaller screens
 * No other known remaining bugs
 
 <br>
@@ -386,6 +390,14 @@ The references mentioned in this section have been used for content and media. S
     Author: *W3Schools* <br>
     Date: 2021 <br>
     URL: https://www.w3schools.com/css/css3_images.asp
+
+<br>
+
+* **Help to solve problem with the color for selected choice and "Next" button not working properly.** <br>
+    Title: Solution color and selection issue <br>
+    Author: *Reuben Ferrante*, mentor <br>
+    Date: Dec 21, 2021 <br>
+    Mentor tip: Remove focus from the class choice in CSS, and create new class and a function that handle the color and selection issues.
 
 <br>
 
