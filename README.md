@@ -260,12 +260,12 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
     ![Lighthouse results for mobile and desktop](assets/images/aq-lighthouse-mobile-desktop.webp)
 
     * **The reasons the score is less than 100% on Performance on mobile are the following:**
-        * Serve static assets with an efficient cache policy - only on quiz page.
-        * Avoid chaining critical requests
-        * Keep request counts low and transfer sizes small
-        * Largest Contentful Paint element
-        * Avoid large layout shifts
-        * Avoid long main-thread tasks
+        * Serve static assets with an efficient cache policy - only quiz page.
+        * Avoid chaining critical requests - all three pages.
+        * Keep request counts low and transfer sizes small - all three pages.
+        * Largest Contentful Paint element - all three pages.
+        * Avoid large layout shifts - all three pages.
+        * Avoid long main-thread tasks - all three pages.
 
 <br>
 
