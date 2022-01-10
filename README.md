@@ -74,7 +74,7 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
 
     <br>
 
-    ##Features
+    ## Features
 
     The features described below have been implemented for the user to have a pleasant and fun experience, with a game that contains text, images and buttons that are easy to understand and makes the flow hassle free.
 
@@ -95,7 +95,7 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
     * The Q image helps user recognition.
     * The heads up display allows the user constant access to information regarding what question he or she is on, how many questions are left, and what score has been accomplished so far.
     * For the user's eyes to easily find the question, it has been placed in the center.
-    * The answer choices shift color when the user hovers over them and when they are clicked, to make it easy for the user to follow what has been selected and not.
+    * The answer choices shift color when the user hovers over them and when they are clicked, to make it easy for the user to follow what has been selected and not. See middle choice in image below.
     * Questions and choices are collected from a separate js file.
     * The button below the choices says "Next" and invites the user to launch the next question or page.
 
