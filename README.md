@@ -299,7 +299,8 @@ The bugs reported in the following section are a selection of the most prominent
 <br>
 
 ### Known issues
-* No known remaining bugs
+* Hover effect and reversed colors on Next button have stopped working on smaller screens
+* No other known remaining bugs
 
 <br>
 
