@@ -315,7 +315,7 @@ The site was deployed to GitHub pages by following these steps: <br>
 * Under Source, click the arrow and choose Branch: main.
 * After a little while the page is automatically refreshed and you get a message on green background, saying "Your site is published at: ...", with a link to your site, showing that your deployment was successful.
 
-The live link can be found here: https://mariechessler.github.io/a-quiz/index.html
+The live link can be found here: https://mariechessler.github.io/a-quiz/
 
 <br>
 
