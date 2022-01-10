@@ -251,40 +251,6 @@ img {
 /* for screen sizes 800px and down */
 
 @media screen and (max-width: 800px){
-    .question-counter-heading {
-        margin-top: 1.5rem;
-        margin-left: 1rem;
-    }
-    
-    .question-counter {
-        margin-left: 1.75rem;
-    }
-    
-    .score-heading {
-        margin-top: 1.5rem;
-        margin-right: 1rem;
-    }
-    
-    #score-counter {
-        margin-right: 1.75rem;
-    }
-
-    .question {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        margin-top: 8rem;
-    }
-}
-
-/* for screen sizes 600px and down */
-
-@media screen and (max-width: 600px) {
-
-    h1 {
-        font-size: 2.1rem;
-        margin-top: 1.5rem;
-        margin-bottom: 2.5rem;
-    }
 
     h2 {
         font-size: 1.4rem;
@@ -295,20 +261,31 @@ img {
         font-size: 1.3rem;
         margin-bottom: 2rem;
     }
+
+    .question-counter-heading {
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+    }
     
     .question-counter {
+        margin-left: 1.75rem;
         font-size: 1.25rem;
+    }
+    
+    .score-heading {
+        margin-top: 1.5rem;
+        margin-right: 1rem;
     }
     
     #score-counter {
+        margin-right: 1.75rem;
         font-size: 1.25rem;
     }
 
-    img {
-        width: 200px;
-        height: 200px;
-        max-width: 100%;
-        height: auto;
+    .question {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 8rem;
     }
 
     .btn-start,
@@ -324,6 +301,24 @@ img {
 
     .choice {
         font-size: 1.05rem;
+    }
+}
+
+/* for screen sizes 600px and down */
+
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 2.1rem;
+        margin-top: 1.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+        max-width: 100%;
+        height: auto;
     }
 }
 
