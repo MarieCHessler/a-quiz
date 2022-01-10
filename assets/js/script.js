@@ -27,6 +27,7 @@ let question;
 let choices;
 let questionCounterDiv;
 let scoreCounterDiv;
+let selectedChoice;
 
 // Check that DOM content is loaded before quiz starts
 window.addEventListener('DOMContentLoaded', () => {
@@ -37,6 +38,7 @@ window.addEventListener('DOMContentLoaded', () => {
   scoreCounterDiv = document.getElementById('score-counter');
 
   startQuiz();
+  document.getElementById("next-question").addEventListener("click", getNextQuestion);
 });
 
 // Restart Quiz
@@ -45,7 +47,29 @@ startQuiz = () => {
   scoreCounter = 0;
   remainingQuestions = [...questions];
   getNextQuestion();
+  createChoiceListeners();
 };
+
+function createChoiceListeners(){
+  choices.forEach(choice => {
+    // Check answers by click event and increment score if correct
+    choice.addEventListener('click', event => {
+      if (!acceptingAnswers) return;
+      acceptingAnswers = false;
+      selectedChoice = event.target;
+      //Assigning the choice class to make it remain highlighted
+      selectedChoice.classList.add("selectedChoice");
+      const selectedAnswer = selectedChoice.dataset.number;
+      const correctAnswer = selectedAnswer == presentQuestion.correctAnswer ? 'correct' : 'incorrect';
+      if (correctAnswer == 'correct') {
+        scoreCounter++;
+        scoreCounterDiv.innerText = `${scoreCounter}`;
+      }else{
+        scoreCounterDiv.innerText = `${scoreCounter}`;
+      }
+    });
+  });
+}
 
 // Handle questions and choices
 getNextQuestion = () => {
@@ -72,20 +96,5 @@ getNextQuestion = () => {
   choices.forEach(choice => {
     const number = choice.dataset.number;
     choice.innerHTML = presentQuestion['choice' + number];
-    
-    // Check answers by click event and increment score if correct
-    choice.addEventListener('click', event => {
-      if (!acceptingAnswers) return;
-      acceptingAnswers = false;
-      const selectedChoice = event.target;
-      const selectedAnswer = selectedChoice.dataset.number;
-      const correctAnswer = selectedAnswer == presentQuestion.correctAnswer ? 'correct' : 'incorrect';
-      if (correctAnswer == 'correct') {
-        scoreCounter++;
-        scoreCounterDiv.innerText = `${scoreCounter}`;
-      }else{
-        scoreCounterDiv.innerText = `${scoreCounter}`;
-      }
-    });
   });
-};
+}
