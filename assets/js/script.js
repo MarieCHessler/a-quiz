@@ -71,8 +71,22 @@ function createChoiceListeners(){
   });
 }
 
-// Handle questions and choices
+/* 
+Handle questions and choices while getting the next question
+Increment the number of questions
+Present new questions and choices
+Removes used questions and moves final score to local storage
+*/
 getNextQuestion = () => {
+  //Stop the user from moving to the next question without selecting a choice
+  if (acceptingAnswers && questionCounter !== 0) {
+    return;
+  }
+  
+  if (selectedChoice !== undefined) {
+  selectedChoice.classList.remove("selectedChoice");
+  }
+
   //When no questions left, save score to local storage and move to Score page
   if (remainingQuestions.length === 0 || questionCounter >= numberOfQuestions) {
     localStorage.setItem('latestScore', `${scoreCounter}`);
