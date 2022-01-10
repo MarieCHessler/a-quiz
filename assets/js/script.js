@@ -16,7 +16,6 @@ Date: Feb 18, 2019 <br>
 URL: https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx */
 
 //Constants and variables
-const pointsForCorrectAnswer = 1;
 const numberOfQuestions = 10;
 let presentQuestion = {};
 let acceptingAnswers = false;
@@ -28,6 +27,8 @@ let choices;
 let questionCounterDiv;
 let scoreCounterDiv;
 let selectedChoice;
+let startQuiz;
+let getNextQuestion;
 
 // Check that DOM content is loaded before quiz starts
 window.addEventListener('DOMContentLoaded', () => {
@@ -111,4 +112,4 @@ getNextQuestion = () => {
     const number = choice.dataset.number;
     choice.innerHTML = presentQuestion['choice' + number];
   });
-}
+};
