@@ -207,22 +207,13 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
     
     * **JavaScript** <br>
         * No errors were found on script.js, questions.js or score.js when passing through the linter [JSHint](https://jshint.com/).
-        * The following warnings were returned:
+        * The following warnings were returned, and good to keep in mind:
             * 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
             * 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
             * 'template literal syntax' is only available in ES6 (use 'esversion: 6').
             * 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-        * The following variables came up as undefined, even though they were defined
-            * startQuiz (in script.js)
-            * questionCounter (in script.js and questions.js)
-            * scoreCounter (in script.js and questions.js)
-            * remainingQuestions (in script.js and questions.js)
+        * The following variable came up as undefined, although it is defined:
             * questions (in script.js and questions.js)
-            * getNextQuestion (in script.js)
-            * numberOfQuestions (in script.js and questions.js)
-            * presentQuestion (in script.js and questions.js)
-            * acceptingAnswers (in script.js and questions.js)
-            * pointsForCorrectAnswer (in questions.js)
 
        <br>
     
