@@ -397,7 +397,7 @@ The references mentioned in this section have been used for content and media. S
     Title: Solution color and selection issue <br>
     Author: *Reuben Ferrante*, mentor <br>
     Date: Dec 21, 2021 <br>
-    Mentor tip: Remove focus from the class choice in CSS, and create new class and a function that handle the color and selection issues.
+    Mentor tip: Remove focus from the class choice in CSS, and create a new class and a function that handle the color and selection issues.
 
 <br>
 

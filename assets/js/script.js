@@ -15,6 +15,14 @@ Author: *James Q Quick* <br>
 Date: Feb 18, 2019 <br>
 URL: https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx */
 
+//Constants and variables
+const pointsForCorrectAnswer = 1;
+const numberOfQuestions = 10;
+let presentQuestion = {};
+let acceptingAnswers = false;
+let questionCounter = 0;
+let scoreCounter = 0;
+let remainingQuestions = [];
 let question;
 let choices;
 let questionCounterDiv;

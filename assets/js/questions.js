@@ -1,12 +1,3 @@
-//Constants and variables
-const pointsForCorrectAnswer = 1;
-const numberOfQuestions = 10;
-let presentQuestion = {};
-let acceptingAnswers = false;
-let questionCounter = 0;
-let scoreCounter = 0;
-let remainingQuestions = [];
-
 let questions = [
     // Questions and choices from OpenTrivia 
     {
