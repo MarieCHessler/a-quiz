@@ -384,7 +384,7 @@ The references mentioned in this section have been used for content and media. S
 
 <br>
 
-* **Help to solve problem with the color for selected choice and "Next" button not working properly.** <br>
+* **Help to solve problem with the color for selected choice and "Next" button not working properly** <br>
     Title: Solution color and selection issue <br>
     Author: *Reuben Ferrante*, mentor <br>
     Date: Jan 10, 2022 <br>
@@ -392,11 +392,19 @@ The references mentioned in this section have been used for content and media. S
 
 <br>
 
-* **Info on how to rearrange code for better flow.** <br>
+* **Info on how to rearrange code for better flow** <br>
     Title: How to arrange code <br>
     Author: *Reuben Ferrante*, mentor <br>
     Date: Jan 10, 2022 <br>
     Mentor tip: Remove focus from the class choice in CSS, and create a new class and a function that handle the color and selection issues.
+
+<br>
+
+* **Questions for quiz** <br>
+    Title: Animal questions <br>
+    Author: *Open Trivia* <br>
+    Date: Dec 1, 2021 <br>
+    URL: https://opentdb.com/api.php?amount=50&category=27&type=multiple
 
 <br>
 
