@@ -248,6 +248,34 @@ img {
     }
 }
 
+/* for screen sizes 800px and down */
+
+@media screen and (max-width: 800px){
+    .question-counter-heading {
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+    }
+    
+    .question-counter {
+        margin-left: 1.75rem;
+    }
+    
+    .score-heading {
+        margin-top: 1.5rem;
+        margin-right: 1rem;
+    }
+    
+    #score-counter {
+        margin-right: 1.75rem;
+    }
+
+    .question {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 8rem;
+    }
+}
+
 /* for screen sizes 600px and down */
 
 @media screen and (max-width: 600px) {
@@ -267,31 +295,13 @@ img {
         font-size: 1.3rem;
         margin-bottom: 2rem;
     }
-
-    .question-counter-heading {
-        margin-top: 1.5rem;
-        margin-left: 1rem;
-    }
     
     .question-counter {
-        margin-left: 1.75rem;
         font-size: 1.25rem;
-    }
-    
-    .score-heading {
-        margin-top: 1.5rem;
-        margin-right: 1rem;
     }
     
     #score-counter {
-        margin-right: 1.75rem;
         font-size: 1.25rem;
-    }
-
-    .question {
-        margin-left: 2rem;
-        margin-right: 2rem;
-        margin-top: 8rem;
     }
 
     img {

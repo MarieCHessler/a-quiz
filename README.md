@@ -129,6 +129,7 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
     * More subjects to choose from.
     * Question presented like a card that flips and shows the right answer when the user has made his or her choice. For a better learning experience.
     * High score.
+    * Better layout, fit for laptops.
 
     <br>
 
@@ -242,11 +243,10 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
         * MacBook Pro 13"
         * iPad generation 6
         * iPhone XR and 11
-        * HP EliteBook
         * HP ProBook
-        * Safari - Version 15.0 (16612.1.29.41.4, 16612)
-        * Chrome - Version 95.0.4638.54 (Official version) (x86_64)
-        * Edge - Version 95.0.1020.30 (Official version) (64 bit)
+        * Safari - Version 15.1 (17612.2.9.1.20)
+        * Chrome - Version 97.0.4692.71 (Official version) (x86_64)
+        * Edge - Version 97.0.1072.55 (Official version) (64 bit)
 
     <br>
 
