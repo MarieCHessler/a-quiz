@@ -43,7 +43,7 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
 
     <br>
 
-    ![Animal Quiz 3 color palette](assets/images/aq-3-color-palette.webp)
+    ![Animal Quiz 3 color palette](assets/images/color-palette.webp)
 
     ### Color Palette
 
@@ -70,7 +70,7 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
 
     <br>
 
-    ![Wireframes for desktop, tablet and mobile](assets/images/aq-wireframes.webp)
+    ![Wireframes for desktop, tablet and mobile](assets/images/wireframes.webp)
 
     <br>
 
@@ -86,7 +86,7 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
     * The image, consisting of a Q with four animals inside and "uiz" on the outside, enhances the understanding.
     * The button invites the user to start the game.
 
-    ![Landing page](assets/images/aq-landing-page.webp)
+    ![Landing page](assets/images/landing-page.webp)
 
     <br>
 
@@ -99,7 +99,7 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
     * Questions and choices are collected from a separate js file.
     * The button below the choices says "Next" and invites the user to launch the next question or page.
 
-    ![Quiz page](assets/images/aq-quiz-page.webp)
+    ![Quiz page](assets/images/quiz-page.webp)
 
     <br>
 
@@ -112,14 +112,14 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
     * For the user's eyes to easily find the result, it has been placed in the center.
     * The buttons below the score text invite the user to choose between starting a new game and returning to the landing page.
 
-    ![Score page](assets/images/aq-score-page.webp)
+    ![Score page](assets/images/score-page.webp)
 
     <br>
 
     **Footer section**
     * The footer section is located in the game container on all three pages and includes copyright information.
 
-    ![Footer section](assets/images/aq-footer.webp)
+    ![Footer section](assets/images/footer.webp)
     
     <br>
 
@@ -257,7 +257,7 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
     * **The site has been run in Lighthouse** (part of Google Chrome DevTools)
         * Results for the landing page, quiz page and score page on mobile and desktop on January 10, 2022.
 
-    ![Lighthouse results for mobile and desktop](assets/images/aq-lighthouse-mobile-desktop.webp)
+    ![Lighthouse results for mobile and desktop](assets/images/lighthouse.webp)
 
     * **The reasons the score is less than 100% on Performance on mobile are the following:**
         * Serve static assets with an efficient cache policy - only quiz page.
