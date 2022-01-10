@@ -163,7 +163,7 @@ img {
 .question-counter {
     float: left;
     margin-left: 2.2rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .score-heading {
@@ -175,7 +175,7 @@ img {
 #score-counter {
     float: right;
     margin-right: 2.2rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 #question-counter-heading,
@@ -269,7 +269,7 @@ img {
     
     .question-counter {
         margin-left: 1.75rem;
-        font-size: 1.25rem;
+        font-size: 1.05rem;
     }
     
     .score-heading {
@@ -279,7 +279,7 @@ img {
     
     #score-counter {
         margin-right: 1.75rem;
-        font-size: 1.25rem;
+        font-size: 1.05rem;
     }
 
     .question {
@@ -295,8 +295,17 @@ img {
         font-size: 1.05rem;
     }
 
+    .next-question {
+        margin: 2rem 1.5rem 3rem 1.5rem;
+    }
+
     #next-question {
         font-size: 1.05rem;
+    }
+
+    .choices {
+        margin: 1rem 1.5rem;
+        justify-content: center;
     }
 
     .choice {
@@ -340,6 +349,16 @@ img {
     h3 {
         font-size: 1.1rem;
         margin-bottom: 2rem;
+    }
+
+    .question-counter {
+        margin-left: 1.75rem;
+        font-size: 1rem;
+    }
+
+    #score-counter {
+        margin-right: 1.75rem;
+        font-size: 1rem;
     }
 
     .question {
