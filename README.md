@@ -255,22 +255,17 @@ Animal Quiz is a game that aims to test people's knowledge about animals. The ga
     <br>
 
     * **The site has been run in Lighthouse** (part of Google Chrome DevTools)
-    * Results for the landing page, Our Classes and Thank you on desktop and mobile.
+        * Results for the landing page, quiz page and score page on mobile and desktop on January 10, 2022.
 
-    ![Lighthouse results desktop](assets/images/lighthouse-desktop.webp)
+    ![Lighthouse results for mobile and desktop](assets/images/aq-lighthouse-mobile-desktop.webp)
 
-    <br>
-
-    ![Lighthouse results mobile](assets/images/lighthouse-mobile.webp)
-
-    <br>
-
-    * **The reasons the score is less than 100% on Performance are the following:**
-        * For the landing page on desktop, scoring xx%, 
-
-        * For the landing page on mobile, scoring xx%,
-
-        * For the quiz page on mobile, scoring xx%,
+    * **The reasons the score is less than 100% on Performance on mobile are the following:**
+        * Serve static assets with an efficient cache policy - only on quiz page.
+        * Avoid chaining critical requests
+        * Keep request counts low and transfer sizes small
+        * Largest Contentful Paint element
+        * Avoid large layout shifts
+        * Avoid long main-thread tasks
 
 <br>
 
