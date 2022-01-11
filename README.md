@@ -186,31 +186,31 @@ A link to the live website can be found [here](https://mariechessler.github.io/a
     <br>
 
     ## Testing
-    The site has been tested by validator and manually. Details can be found in the sections below.
+    The site has been tested in validators and manually. Details can be found in the sections below.
 
     <br>
 
     ### Validator testing
     * **HTML** <br>
-        * No errors or warnings were found on index.html, quiz.html or score.html, then passing through the official [W3C validator](https://validator.w3.org/#validate_by_input).
+        * No errors or warnings were found on index.html, quiz.html, or score.html when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input).
 
         <br>
     
     * **CSS** <br>
-        * No errors were found on style.css, when passing through the official [W3C (Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
+        * No errors were found on style.css when passing through the official [W3C (Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
         * One warning was returned, saying "Imported style sheets are not checked in direct input and file upload modes".
 
         <br>
     
     * **JavaScript** <br>
         * No errors were found on script.js, questions.js or score.js when passing through the linter [JSHint](https://jshint.com/).
-        * The following warnings were returned, and good to keep in mind:
+        * The following warnings were returned, and are hereby noted:
             * 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
             * 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
             * 'template literal syntax' is only available in ES6 (use 'esversion: 6').
             * 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-        * The following variable came up as undefined, although it is defined:
-            * questions (in script.js and questions.js)
+        * The following variable came up as undefined in script.js (where it is used), and as unused in questions.js (where it is defined):
+            * questions
 
        <br>
     
@@ -219,10 +219,10 @@ A link to the live website can be found [here](https://mariechessler.github.io/a
         * Links and buttons work properly.
         * Question number and score are updated for each new question.
         * Hover effect and selection color work for buttons and choices.
-        * New question appears when "Next" button is clicked.
+        * A new question appears when the Next button is clicked.
         * Correct choices are presented with each new question.
-        * Final score is presented when last question has been answered.
-        * Responsiveness works, and no content moves in unexpected ways when screen size is changed.
+        * Final score is presented when the last question has been answered.
+        * Responsiveness works and no content moves in unexpected ways when the screen size is changed.
 
     <br>
 
@@ -232,7 +232,7 @@ A link to the live website can be found [here](https://mariechessler.github.io/a
         * iPad generation 6
         * iPhone XR and 11
         * HP ProBook
-        * Safari - Version 15.1 (17612.2.9.1.20)
+        * Safari - Version 15.1 (17612.2.9.1.20) and 15.2 (17612.3.6.1.6)
         * Chrome - Version 97.0.4692.71 (Official version) (x86_64)
         * Edge - Version 97.0.1072.55 (Official version) (64 bit)
 
@@ -243,17 +243,17 @@ A link to the live website can be found [here](https://mariechessler.github.io/a
     <br>
 
     * **The site has been run in Lighthouse** (part of Google Chrome DevTools)
-        * Results for the landing page, quiz page and score page on mobile and desktop on January 10, 2022.
+        * Results for the landing page, quiz page and score page on mobile and desktop can be found below.
 
     ![Lighthouse results for mobile and desktop](assets/images/lighthouse.webp)
 
-    * **The reasons the score is less than 100% on Performance on mobile are the following:**
-        * Serve static assets with an efficient cache policy - only quiz page.
-        * Avoid chaining critical requests - all three pages.
-        * Keep request counts low and transfer sizes small - all three pages.
-        * Largest Contentful Paint element - all three pages.
-        * Avoid large layout shifts - all three pages.
-        * Avoid long main-thread tasks - all three pages.
+    * **The reasons the score is less than 100% on Performance on mobile are the following, and can be addressed if needed at a later stage:**
+        * Serve static assets with an efficient cache policy - only for quiz page.
+        * Avoid chaining critical requests - for all three pages.
+        * Keep request counts low and transfer sizes small - for all three pages.
+        * Largest Contentful Paint element - for all three pages.
+        * Avoid large layout shifts - for all three pages.
+        * Avoid long main-thread tasks - for all three pages.
 
 <br>
 
@@ -267,32 +267,32 @@ The bugs reported in the following section are a selection of the most prominent
 <br>
 
 * **Bug:** Too few of the questions are presented and the wrong scores are shown. <br>
-    **Fix:** Remove nextQuestion from within function and add "Next" button.
+    **Fix:** Remove nextQuestion from within the function and add a button called Next.
 
 <br>
 
-* **Bug:** Final score not showing on score page. <br>
+* **Bug:** The final score is not showing on the score page. <br>
     **Fix:** Use local storage.
 
 <br>
 
-* **Bug:** Rounded corners on larger screens not working with footer. <br>
-    **Fix:** Include footer in general container.
+* **Bug:** Rounded corners on larger screens are not working with the footer. <br>
+    **Fix:** Include the footer in the general container.
 
 <br>
 
-* **Bug:** Image not changing size. <br>
-    **Fix:** Make image responsive by setting the max width to 100% and the height to auto.
+* **Bug:** The image is not changing size. <br>
+    **Fix:** Make the image responsive by setting the max-width to 100% and the height to auto.
 
 <br>
 
-* **Bug:** Color for selected choice and "Next" button stopped working. <br>
-    **Fix:** Replace focus on class choice in CSS with new class selectedChoice and related function.
+* **Bug:** The color for the selected choice and the Next button stopped working. <br>
+    **Fix:** Replace .choice:focus in CSS with a new class, and a related function that handles selection.
 
 <br>
 
 ### Known issues
-* No other known remaining bugs
+* No other known remaining bugs.
 
 <br>
 
