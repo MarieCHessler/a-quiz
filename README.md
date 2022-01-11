@@ -47,26 +47,26 @@ A link to the live website can be found [here](https://mariechessler.github.io/a
 
     ### Color Palette
 
-    * The game's primary colors are (from left to right) Outer Space Crayola, Laurel Green and Timberwolf, as seen in the picture above. They were derived using the online tool Coolors, to make sure they complement and contrast each other in a good way.
-        * **Outer Space Crayola** is used for headlines and text, as contrasting background color on buttons, as background hover color for choices and as hover color for button texts.
-        * **Laurel Green** is used as background color for the general container, and also for the body for tablets and mobiles. 
-        * **Timberwolf** is used as contrasting background color for choices, as background hover color for buttons and as hover color for choice texts.
+    * The game's primary colors are (from left to right) Outer Space Crayola, Laurel Green, and Timberwolf, as seen in the picture above. They were derived using the online tool Coolors, to make sure they complement and contrast each other in a good way.
+        * **Outer Space Crayola** is used for headlines and text, as a contrasting background color on buttons, as background hover color for choices and as a hover color for button texts.
+        * **Laurel Green** is used as the background color for the general container, and for the body for tablets and mobiles. 
+        * **Timberwolf** is used as a contrasting background color for choices, as a background hover color for buttons, and as a hover color for choice texts.
     * The colors are all nuances of green, to mirror nature and enhance the connection with the animal kingdom.
 
     ### Typography
 
-    * Cormorant Garamond is used for headings, since it fits with the Q in the image and looks professional. Fallback font is serif.
-    * Raleway is used for body, scores, choices and buttons, since it is easy to read and complements Cormorant Garamond well. Fallback font is sans serif
-    * Both fonts are from Google Fonts, and a good font pairing according to the site Davey & Crista that focuses on brand strategy and design.
+    * **Cormorant Garamond** is used for headings since it fits with the Q in the image and looks professional. The fallback font is serif.
+    * **Raleway** is used for body, scores, choices, and buttons since it is easy to read and complements Cormorant Garamond well. The fallback font is sans serif.
+    * Both fonts are from Google Fonts, and a good font pairing according to the site Davey & Crista, a site that focuses on brand strategy and design.
 
     ### Layout
     
     * The content has been divided into three different pages. This way the quiz page, with the questions, is separated from the end page, where the final score is presented, and the landing page, where you start.
-    * For desktop and laptops the colored background has been limited to the general container, to keep the eyes' focus mid screen. For tablets and mobiles the whole background is colored.
+    * For desktop and laptops, the colored background has been limited to the general container, to keep the eyes' focus mid-screen. For tablets and mobiles, the whole background is colored.
 
     ### Wireframes
 
-    * Wireframes were used to structure the page content for desktop, tablet, and mobile screens. The structure does not vary a lot between the different screens, since the content is kept mid screen for the game, but margins, image sizes and font sizes vary.
+    * Wireframes were used to structure the page content for desktop, tablet, and mobile screens. The structure does not vary a lot between the different screens, since the content is kept mid-screen for the game, but margins, image sizes, and font sizes vary.
 
     <br>
 
