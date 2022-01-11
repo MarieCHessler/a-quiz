@@ -1,5 +1,10 @@
 /*
-Questions and choices are collected from the site OpenTrivia
+Questions and choices are collected from OpenTrivia:
+
+Title: Animal questions
+Author: Open Trivia
+Date: Dec 1, 2021
+URL: https://opentdb.com/api.php?amount=50&category=27&type=multiple
 */
 
 let questions = [
