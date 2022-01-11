@@ -144,9 +144,6 @@ A link to the live website can be found [here](https://mariechessler.github.io/a
     * **[CSS](https://www.w3schools.com/css/default.asp)** <br>
     Used for site styling and responsiveness.
 
-    * **[Font Awesome](https://fontawesome.com)** <br>
-    Used for icons used for illustrations.
-
     * **[Git](https://git-scm.com/)** <br>
     Used for version control, by using GitHub terminal for git commits and push to GitHub.
 
@@ -160,7 +157,7 @@ A link to the live website can be found [here](https://mariechessler.github.io/a
     Used for checking responsiveness, trying alternative code solutions, and testing performance, accessibility, best practices and SEO.
 
     * **[Google Fonts](https://fonts.google.com)** <br>
-    Used to find and import the fonts Raleway and Montez that are used across the sites.
+    Used to find and import the fonts Raleway and Cormorant Garamond that are used across the site.
 
     * **[HTML](https://www.w3schools.com/html/)** <br>
     Used for site content and structure.
@@ -171,8 +168,8 @@ A link to the live website can be found [here](https://mariechessler.github.io/a
     * **[JSHint](https://jshint.com/)** <br>
     Used to validate JavaScript code.
 
-    * **[Microsoft Word](https://www.microsoft.com/en-us/microsoft-365/word)** <br>
-    Used for spellchecking text.
+    * **[Grammarly](https://app.grammarly.com)** <br>
+    Used for checking spelling and grammar.
 
     * **[Photoshop](https://www.adobe.com/products/photoshop.html)** <br>
     Used for editing images and illustrations.
