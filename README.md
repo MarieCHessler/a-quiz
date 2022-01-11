@@ -127,7 +127,7 @@ A link to the live website can be found [here](https://mariechessler.github.io/a
     * An image connected to each question.
     * Possibility to choose different levels of difficulty.
     * More subjects to choose from.
-    * The question being presented like a card that flips and shows the right answer when the user has made his or her choice, for a better learning experience.
+    * The question is presented like a card that flips and shows the right answer when the user has made his or her choice, for a better learning experience.
     * High score.
     * Layout adjustments for even better UX and design.
 
@@ -154,7 +154,7 @@ A link to the live website can be found [here](https://mariechessler.github.io/a
     IDE used for programming, editing, and debugging.
 
     * **[Google Chrome DevTools](https://developer.chrome.com/docs/devtools/)** <br>
-    Used for checking responsiveness, trying alternative code solutions, and testing performance, accessibility, best practices and SEO.
+    Used for checking responsiveness, trying alternative code solutions, and testing performance, accessibility, best practices, and SEO.
 
     * **[Google Fonts](https://fonts.google.com)** <br>
     Used to find and import the fonts Raleway and Cormorant Garamond that are used across the site.
