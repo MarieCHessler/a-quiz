@@ -76,14 +76,14 @@ A link to the live website can be found [here](https://mariechessler.github.io/a
 
     ## Features
 
-    The features described below have been implemented for the user to have a pleasant and fun experience, with a game that contains text, images and buttons that are easy to understand and makes the flow hassle free.
+    The features described below have been implemented for the user to have a pleasant and fun experience, with a game that contains text, images, and buttons that are easy to understand and make the flow hassle-free.
 
     ### Existing features
 
     **Landing page**
     * The landing page includes the heading ANIMAL, a quiz image, and a button to start the game.
     * The heading, together with the animals, makes it easy for the user to understand what the quiz is about.
-    * The image, consisting of a Q with four animals inside and "uiz" on the outside, enhances the understanding.
+    * The image, consisting of a Q with four animals inside and the letters u, i, and z on the outside, enhances the understanding.
     * The button invites the user to start the game.
 
     ![Landing page](assets/images/landing-page.webp)
@@ -91,22 +91,22 @@ A link to the live website can be found [here](https://mariechessler.github.io/a
     <br>
 
     **Quiz page**
-    * The quiz page is where the actual game takes place, and includes the Q image, a heads up display with question number and score, the question, three choices and a button.
+    * The quiz page is where the actual game takes place and includes the Q image, a heads-up display with question number and score, the question, three choices, and a button.
     * The Q image helps user recognition.
-    * The heads up display allows the user constant access to information regarding what question he or she is on, how many questions are left, and what score has been accomplished so far.
+    * The heads-up display allows the user constant access to information regarding what question he or she is on, how many questions are left, and what score has been accomplished so far.
     * For the user's eyes to easily find the question, it has been placed in the center.
-    * The answer choices shift color when the user hovers over them and when they are clicked, to make it easy for the user to follow what has been selected and not. See middle choice in image below.
-    * Questions and choices are collected from a separate js file.
-    * The button below the choices says "Next" and invites the user to launch the next question or page.
+    * The answer choices shift color when the user hovers over them and when they are clicked, to make it easy for the user to follow what has been selected and not. See the middle choice in the image below.
+    * Questions and choices are collected from a separate JS file.
+    * The button below the choices says Next and invites the user to launch the next question or page.
 
     ![Quiz page](assets/images/quiz-page.webp)
 
     <br>
 
     **Score page**
-    * The score page is the end page of the game, where the final score is presented and the user can choose to start a new game or go back to the landing page.
-    * The page includes the heading SCORE, the Q image, a text telling the user he or she scored a certain number out of 10, one button that says "Start New Quiz" and one that says "Back to Start Page".
-    * The layout of the page is similar to that of the landing page, for recogniton.
+    * The score page is the end page of the game, where the final score is presented, and the user can choose to start a new game or go back to the landing page.
+    * The page includes the heading SCORE, the Q image, a text telling the user he or she scored a certain number out of 10, one button that says Start New Quiz, and one that says Back to Start Page.
+    * The layout of the page is similar to that of the landing page, for recognition.
     * The heading makes it clear to the user what is presented on the page.
     * The Q image helps user recognition.
     * For the user's eyes to easily find the result, it has been placed in the center.
@@ -127,9 +127,9 @@ A link to the live website can be found [here](https://mariechessler.github.io/a
     * An image connected to each question.
     * Possibility to choose different levels of difficulty.
     * More subjects to choose from.
-    * Question presented like a card that flips and shows the right answer when the user has made his or her choice. For a better learning experience.
+    * The question being presented like a card that flips and shows the right answer when the user has made his or her choice, for a better learning experience.
     * High score.
-    * Better layout, fit for laptops.
+    * Layout adjustments for even better UX and design.
 
     <br>
 
