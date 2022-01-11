@@ -2,9 +2,9 @@
 
 Animal Quiz is a game that aims to test people's knowledge about animals. The game is targeted towards people who want to check what they know about different animals in the world. Animal Quiz will be useful for people in that it is a fun way to test what they know about animals and maybe learn more about them.
 
-<!-- A link to the live website can be found [here](https://mariechessler.github.io/a-quiz/index.html), and a link to the repository [here](https://github.com/MarieCHessler/a-quiz).
+A link to the live website can be found [here](https://mariechessler.github.io/a-quiz/), and a link to the repository [here](https://github.com/MarieCHessler/a-quiz).
 
-![Animal Quiz on different screen sizes](assets/images/aq-screens.webp) -->
+![Animal Quiz on different screen sizes](assets/images/screens.webp)
 
 <br>
 
