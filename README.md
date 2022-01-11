@@ -345,7 +345,7 @@ The references mentioned in this section have been used for content and media. S
     Title: Solution to question and score issue <br>
     Author: *Dave Horrocks*, Slack community <br>
     Date: Dec 21, 2021 <br>
-    Autor tip: getNextQuestion is being called in a loop, which is causing the problem.
+    Author tip: getNextQuestion is being called in a loop, which is causing the problem.
 
 <br>
 
