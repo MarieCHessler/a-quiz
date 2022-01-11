@@ -406,7 +406,7 @@ The references mentioned in this section have been used for content and media. S
 <br>
 
 ### Media
-* **Image butterfly** <br>
+* **Image of butterfly** <br>
     Site: Pexels <br>
     Creator: *Pavel Hájek* <br>
     URL: https://www.pexels.com/photo/colorful-butterfly-on-stem-of-dry-plant-4275360/ <br>
@@ -414,7 +414,7 @@ The references mentioned in this section have been used for content and media. S
 
 <br>
 
-* **Image sea horse** <br>
+* **Image of sea horse** <br>
     Site: Pexels <br>
     Creator: *Sergiu Iacob* <br>
     URL: https://www.pexels.com/photo/close-up-shot-of-a-seahorse-7868382/ <br>
@@ -422,7 +422,7 @@ The references mentioned in this section have been used for content and media. S
 
 <br>
 
-* **Image hippo** <br>
+* **Image of hippo** <br>
     Site: Pexels <br>
     Creator: *Pixabay* <br>
     URL: https://www.pexels.com/photo/hippos-in-water-46540/ <br>
@@ -430,7 +430,7 @@ The references mentioned in this section have been used for content and media. S
 
 <br>
 
-* **Image cheetah** <br>
+* **Image of cheetah** <br>
     Site: Pexels <br>
     Creator: *Antony Trivet* <br>
     URL: https://www.pexels.com/photo/young-cheetah-walking-in-savanna-6057031/ <br>
