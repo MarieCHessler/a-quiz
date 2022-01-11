@@ -314,10 +314,10 @@ The live link can be found here: https://mariechessler.github.io/a-quiz/
 
 ## Credits
 
-The references mentioned in this section have been used for content and media. Special thanks at the end.
+The references mentioned in this section have been used for content and media. Special thanks can be found at the end.
 
 ### Content
-* **Inspiration on how to create a quiz - 1** <br>
+* **Inspiration on how to create a quiz** <br>
     Title: Create a Multiple Choice Quiz App Using JavaScript <br>
     Author: *Code Explained* <br>
     Date: Oct 18, 2018 <br>
@@ -325,15 +325,39 @@ The references mentioned in this section have been used for content and media. S
 
 <br>
 
-* **Inspiration on how to create a quiz - 2** <br>
-    Title: Creating a Basic Quiz - JavaScript Tutorial <br>
-    Author: *Zenva* <br>
-    Date: Dec 15, 2020 <br>
-    URL: https://www.youtube.com/watch?v=RswgVWKJRLM
+* **Help to solve the problem with the color not working properly for the selected choice and the Next button** <br>
+    Title: Solution to color and selection issue <br>
+    Author: *Reuben Ferrante*, mentor <br>
+    Date: Jan 10, 2022 <br>
+    Mentor tip: Remove .choice:focus from CSS, and create a new class in combination with a function that handles the color and selection issues.
 
 <br>
 
-* **Inspiration on how to create a quiz - 3** <br>
+* **Info on how to rearrange code for a better flow** <br>
+    Title: How to arrange code <br>
+    Author: *Reuben Ferrante*, mentor <br>
+    Date: Jan 10, 2022 <br>
+    Mentor tip: Move constants from the question file to the script file, move part of the code in the script file to the new function created to fix the color and selection issues, and add another event listener to get the next question instead of using onclick in HTML.
+
+<br>
+
+* **Help with an issue connected to too few questions being presented and the wrong score showing** <br>
+    Title: Solution to question and score issue <br>
+    Author: *Dave Horrocks*, Slack community <br>
+    Date: Dec 21, 2021 <br>
+    Autor tip: getNextQuestion is being called in a loop, which is causing the problem.
+
+<br>
+
+* **Questions for quiz** <br>
+    Title: Animal questions <br>
+    Author: *Open Trivia* <br>
+    Date: Dec 1, 2021 <br>
+    URL: https://opentdb.com/api.php?amount=50&category=27&type=multiple
+
+<br>
+
+* **Inspiration on how to create a quiz** <br>
     Title: Build a Quiz App with HTML, CSS, and JavaScript <br>
     Author: *James Q Quick* <br>
     Date: Feb 18, 2019 <br>
@@ -341,15 +365,7 @@ The references mentioned in this section have been used for content and media. S
 
 <br>
 
-* **Help with issue connected to too few questions presented and wrong score showing** <br>
-    Title: Solution to question and score issue <br>
-    Author: *Dave Horrocks*, Slack community <br>
-    Date: Dec 21, 2021 <br>
-    Autor tip: "getNextQuestion" is being called in a loop, which is causing the problem.
-
-<br>
-
-* **Solution to how to change color on clicked choice** <br>
+* **Solution to how to change the color on a clicked choice** <br>
     Title: How to keep :active css style after click a button <br>
     Author: *SW4* <br>
     Date: Jul 2, 2015 <br>
@@ -357,11 +373,11 @@ The references mentioned in this section have been used for content and media. S
 
 <br>
 
-* **Inspiration on how to move the final score to the end page** <br>
-    Title: Web Storage API <br>
+* **How to make an image responsive** <br>
+    Title: CSS Styling Images <br>
     Author: *W3Schools* <br>
     Date: 2021 <br>
-    URL: https://www.w3schools.com/js/js_api_web_storage.asp
+    URL: https://www.w3schools.com/css/css3_images.asp
 
 <br>
 
@@ -373,35 +389,19 @@ The references mentioned in this section have been used for content and media. S
 
 <br>
 
-* **How to make image responsive** <br>
-    Title: CSS Styling Images <br>
+* **Inspiration on how to move the final score to the score page** <br>
+    Title: Web Storage API <br>
     Author: *W3Schools* <br>
     Date: 2021 <br>
-    URL: https://www.w3schools.com/css/css3_images.asp
+    URL: https://www.w3schools.com/js/js_api_web_storage.asp
 
 <br>
 
-* **Help to solve problem with the color for selected choice and "Next" button not working properly** <br>
-    Title: Solution color and selection issue <br>
-    Author: *Reuben Ferrante*, mentor <br>
-    Date: Jan 10, 2022 <br>
-    Mentor tip: Remove focus from the class choice in CSS, and create a new class and a function that handle the color and selection issues.
-
-<br>
-
-* **Info on how to rearrange code for better flow** <br>
-    Title: How to arrange code <br>
-    Author: *Reuben Ferrante*, mentor <br>
-    Date: Jan 10, 2022 <br>
-    Mentor tip: Remove focus from the class choice in CSS, and create a new class and a function that handle the color and selection issues.
-
-<br>
-
-* **Questions for quiz** <br>
-    Title: Animal questions <br>
-    Author: *Open Trivia* <br>
-    Date: Dec 1, 2021 <br>
-    URL: https://opentdb.com/api.php?amount=50&category=27&type=multiple
+* **Inspiration on how to create a quiz** <br>
+    Title: Creating a Basic Quiz - JavaScript Tutorial <br>
+    Author: *Zenva* <br>
+    Date: Dec 15, 2020 <br>
+    URL: https://www.youtube.com/watch?v=RswgVWKJRLM
 
 <br>
 
@@ -414,11 +414,11 @@ The references mentioned in this section have been used for content and media. S
 
 <br>
 
-* **Image cheetah** <br>
+* **Image sea horse** <br>
     Site: Pexels <br>
-    Creator: *Antony Trivet* <br>
-    URL: https://www.pexels.com/photo/young-cheetah-walking-in-savanna-6057031/ <br>
-    Image: pexels-antony-trivet-6057031.jpg 
+    Creator: *Sergiu Iacob* <br>
+    URL: https://www.pexels.com/photo/close-up-shot-of-a-seahorse-7868382/ <br>
+    Image: pexels-sergiu-iacob-7868382.jpg 
 
 <br>
 
@@ -430,10 +430,34 @@ The references mentioned in this section have been used for content and media. S
 
 <br>
 
-* **Image sea horse** <br>
+* **Image cheetah** <br>
     Site: Pexels <br>
-    Creator: *Sergiu Iacob* <br>
-    URL: https://www.pexels.com/photo/close-up-shot-of-a-seahorse-7868382/ <br>
-    Image: pexels-sergiu-iacob-7868382.jpg 
+    Creator: *Antony Trivet* <br>
+    URL: https://www.pexels.com/photo/young-cheetah-walking-in-savanna-6057031/ <br>
+    Image: pexels-antony-trivet-6057031.jpg 
 
 <br>
+
+### Special thanks to
+
+* [Code Explained](https://www.codeexplained.dev), for excellent tutorials and lessons, that are easy to understand.
+
+* [Code Institute](https://codeinstitute.net/), for great instructions.
+
+* [CSS Tricks](https://css-tricks.com), for useful tips and tricks.
+
+* Reuben Ferrante, Code Institute mentor, for his guidance and help.
+
+* [Google](https://www.google.com/), for providing the very helpful [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/).
+
+* [Mozilla](https://developer.mozilla.org/), for useful tips and tricks.
+
+* [Pexels](https://www.pexels.com/), for providing a wide range of great pictures for free.
+
+* [James Q Quick](https://www.jamesqquick.com), for excellent tutorials and lessons, that are easy to understand.
+
+* [Stack Overflow](https://stackoverflow.com), for useful tips and tricks.
+
+* [W3Scools](https://www.w3schools.com/), for excellent explanations and examples, that are easy to understand.
+
+* [Zenva](https://academy.zenva.com), for excellent tutorials and lessons, that are easy to understand.
