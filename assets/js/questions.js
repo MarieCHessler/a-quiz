@@ -1,5 +1,5 @@
 let questions = [
-    // Questions and choices from OpenTrivia 
+    // Questions and choices collected from OpenTrivia 
     {
         "question": "What was the name of the Ethiopian Wolf before they knew it was related to wolves?",
         "choice1": "Simien Jackel",

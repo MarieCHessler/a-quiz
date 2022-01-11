@@ -1,4 +1,5 @@
-/* The following tutorials have been used as inspiration on how build a quiz:
+/* 
+The following tutorials have been used as inspiration on how build a quiz:
 
 Title: Create a Multiple Choice Quiz App Using JavaScript <br>
 Author: *Code Explained* <br>
@@ -13,7 +14,8 @@ URL: https://www.youtube.com/watch?v=RswgVWKJRLM
 Title: Build a Quiz App with HTML, CSS, and JavaScript <br>
 Author: *James Q Quick* <br>
 Date: Feb 18, 2019 <br>
-URL: https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx */
+URL: https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx 
+*/
 
 //Constants and variables
 const numberOfQuestions = 10;
@@ -39,6 +41,7 @@ window.addEventListener('DOMContentLoaded', () => {
   scoreCounterDiv = document.getElementById('score-counter');
 
   startQuiz();
+  //Get next question when Next button is clicked
   document.getElementById("next-question").addEventListener("click", getNextQuestion);
 });
 
@@ -50,6 +53,10 @@ startQuiz = () => {
   getNextQuestion();
   createChoiceListeners();
 };
+
+/* 
+Help from mentor Reuben Ferrante to arrange the code in the function correctly
+*/
 
 function createChoiceListeners(){
   choices.forEach(choice => {
